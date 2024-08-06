@@ -25,3 +25,10 @@ variable "tags" {
   }
   description = "the tags for the resources"
 }
+
+variable "password" {
+  description = "sqlserver password"
+  type = string
+  sensitive = true
+  
+}
